@@ -11,10 +11,9 @@ h3 {
 }
 
 ul {
-	font-color: #ffff00;
 	border-style: solid;
-	padding-left: 20px;
-	background-image: url("http://www.titanui.com/wp-content/uploads/2014/03/03/One-Piece-Characters-Silhouette-Vector.jpg");
+	padding-left: 5%;
+	background-image: url("https://secure.static.tumblr.com/fb1ce6e5c02d8d58d1f822fd43814b56/wu6rwpx/XIKncvk6z/tumblr_static_filename_640_v2.jpg");
 }
 
 table {
@@ -29,10 +28,18 @@ a:hover {
 	color: yellow;
 }
 
+.crew {
+	color: #ffff00;
+}
+
 .bio {
 	font-size: 20;
 }
 
 #compare {
 	font-style: italic;
+}
+
+#flag {
+	margin: 50px 700px 50px 500px;
 }

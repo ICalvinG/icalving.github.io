@@ -43,3 +43,9 @@ a:hover {
 #flag {
 	margin: 50px 700px 50px 500px;
 }
+
+@media only screen and (max-width: 500px) {
+	#flag {
+		display: none;
+	}
+}

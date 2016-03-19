@@ -28,3 +28,11 @@ a:visited {
 a:hover {
 	color: yellow;
 }
+
+.bio {
+	font-size: 20;
+}
+
+#compare {
+	font-style: italic;
+}

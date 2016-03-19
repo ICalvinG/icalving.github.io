@@ -11,5 +11,16 @@ h3 {
 }
 
 ul {
+	font-color: #ffff00;
 	border-style: solid;
+	padding-left: 20px;
+	background-image: url("http://www.titanui.com/wp-content/uploads/2014/03/03/One-Piece-Characters-Silhouette-Vector.jpg");
+}
+
+table {
+	background-image: url("http://img15.deviantart.net/1bc0/i/2012/224/8/f/straw_hat_pirates_by_pepimania-d5ateyv.jpg");
+}
+
+a:visited {
+	color: red;
 }

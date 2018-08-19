@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    Project List
+\*------------------------------------*/
+
+.project__list-container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: repeat(auto-fit, minmax(300px, auto));
+}
+
+.project__list-container div {
+  background-color: #474747;
+}
+
+.project__container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
+  padding: 20px;
+}
+
+.project__container img {
+  justify-self: center;
+
+  max-width: 375px;
+  max-height: 375px;
+}
+
+.project__container a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  color: #9DF3C4;
+}
+
+@media screen and (max-width: 720px) {
+  .project__container img {
+    justify-self: center;
+
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project__container img {
+    justify-self: center;
+
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+@media screen and (min-height: 1200px) {
+  .project__container {
+    justify-self: center;
+    
+    width: 75%;
+  }
+}
